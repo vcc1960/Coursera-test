@@ -1,5 +1,17 @@
-# header-nav{
-	background-color: black;
+
+body {background-color: #cccccc;}
+
+
+
+#header-nav{
+	background-color: #a6a6a6;
 	border-radius: 0;
 	border:0;
+	height: 10em;
 }
+
+h1 { margin-left: .5em;
+	text-align: left;
+}
+
+h2 {margin-left: .6em;}
