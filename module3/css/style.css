@@ -1,18 +1,23 @@
 
 body {background-color: #cccccc;}
 
-
+/* header and logo*/
 
 #header-nav{
-	background-color: #a6a6a6;
+	background-color: #262626;
 	border-radius: 0;
 	border:0;
 	height: 10em;
 }
+#logo-imag {
+	background:url('userss/valeriecourreges/coursera-test/module3/image/logo.png') no-repeat;
+	width:100px;
+	height: 100px;
+	margin:15px 15px 10px 0;
 
-h1 { margin-left: .2em;
-	text-align: left;
+
+
 }
 
-h2 {margin-left: 2.5em;
-font-style:italic;}
+
+
