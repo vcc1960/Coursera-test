@@ -2,22 +2,62 @@
 body {background-color: #cccccc;}
 
 /* header and logo*/
-
+.menu-categories{}
 #header-nav{
 	background-color: #262626;
 	border-radius: 0;
 	border:0;
 	height: 10em;
 }
-#logo-imag {
-	background:url('userss/valeriecourreges/coursera-test/module3/image/logo.png') no-repeat;
-	width:100px;
-	height: 100px;
-	margin:15px 15px 10px 0;
+/******* style Brand Name *******/
 
-
-
+#brand{ font-size: 3em;
+		 color: maroon;
+		 margin-top: 40px;
+		 margin bottom:0;
 }
 
+/******* style button *******/
+.navbar-default .navbar-toggle .icon-bar {background-color: maroon;
+										border-color: #cccccc;
+										}
+.navbar-default .navbar-toggle {background-color: #cccccc;}
 
+#dropdown-btn a:hover{
+				background-color:maroon;
+			}
+			#dropdown-btn {background-color: #262626}
+.dropdown li span { text-align: center; }						
+
+#collapsable-nav { color: maroon; 
+					 }
+.row {width:100%;}
+
+.page-header{padding-top: 40px;
+             font-size: 80%;
+             margin-left: -20px;
+             border: 1px;}
+
+
+#height{margin-left: 50px;
+		
+		font-size: 1em;
+		padding:30px;}
+
+h1 {text-align: center;
+}
+
+li {text-align: center;
+	font-size: 1.5em;}
+/***** media queris*/
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px){}
+
+@media (max-width: 767px){
+
+}
 
